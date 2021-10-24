@@ -4,18 +4,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;  
 import javax.persistence.Table;
 
-import lombok.AccessLevel;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.NoArgsConstructor;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.Builder;
-
-
 @Entity
 @Table
-@Data
 public class Product {
 
     @Id
